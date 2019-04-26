@@ -17,11 +17,17 @@
             "email": "choraimy@live.nl"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rivalrygg/postal-code-validator"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "illuminate/support": ">=5.1,<5.9",
         "illuminate/validation": ">=5.1,<5.9",
-        "sirprize/postal-code-validator": "^1.3"
+        "sirprize/postal-code-validator": "dev-use_regex_from_googlei18n"
     },
     "require-dev": {
         "orchestra/testbench": "^3.0",
